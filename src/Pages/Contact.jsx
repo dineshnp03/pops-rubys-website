@@ -4,12 +4,17 @@ import { Button, Form } from "react-bootstrap";
 
 function Contact() {
   return (
-
     <div className="page">
       <h1 className="mb-4">Contact Us</h1>
-      <p><strong>Phone:</strong> (123) 456-7890</p>
-      <p><strong>Email:</strong> info@tastytreats.com</p>
-      <p><strong>Address:</strong>Address: 123 Flavor Street, Food City, Yumland</p>
+      <p>
+        <strong>Phone:</strong> (123) 456-7890
+      </p>
+      <p>
+        <strong>Email:</strong> info@popsandrubys.com
+      </p>
+      <p>
+        <strong>Address:</strong>Address: 123 Flavor Street, Food City, Yumland
+      </p>
 
       <Form className="contact-form">
         <Form.Group className="mb-3" controlId="formName">
@@ -24,11 +29,18 @@ function Contact() {
 
         <Form.Group className="mb-3" controlId="formMessage">
           <Form.Label className="fw-bold">Your Message</Form.Label>
-          <Form.Control as="textarea" rows={5} placeholder="Type your message" required />
+          <Form.Control
+            as="textarea"
+            rows={5}
+            placeholder="Type your message"
+            required
+          />
         </Form.Group>
 
-        <Button variant="dark" type="submit">Send Message</Button>
-      </Form>   
+        <Button variant="dark" type="submit">
+          Send Message
+        </Button>
+      </Form>
 
       <div className="map-container">
         <iframe

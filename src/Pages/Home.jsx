@@ -7,7 +7,7 @@ import ambianceImage from "../images/ambiance.jpg";
 function Home() {
   return (
     <div className="page home-page">
-      <h1>Welcome to Tasty Treats</h1>
+      <h1>Welcome to Pops and Ruby's</h1>
       <img src={homeImage} alt="Restaurant interior" className="hero-img" />
       <p>Experience the best fusion of modern and traditional cuisine!</p>
 
