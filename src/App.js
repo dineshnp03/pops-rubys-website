@@ -1,3 +1,4 @@
+// Author name: Dinesh Narasimhalu Punniyamoorthy
 import { Route, Routes } from 'react-router';
 import './css/App.css';
 import Footer from './components/Footer';
@@ -8,6 +9,8 @@ import Home from './Pages/Home';
 import Menu from './Pages/Menu';
 import './css/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
