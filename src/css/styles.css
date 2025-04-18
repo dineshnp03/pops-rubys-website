@@ -1,5 +1,4 @@
-// authors name: Dinesh, Sumit, Kiran, Sudhi
-
+/* authors name: Dinesh, Sumit, Kiran, Sudhi */
 
 .body-section {
   margin: 0;
@@ -20,6 +19,32 @@ body {
   z-index: 1000;
 }
 
+.brand-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-item {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 14px !important;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #c38552 !important;
+}
+
+.nav-item.active {
+  background-color: #ffc107;
+  color: #000 !important;
+  font-weight: bold;
+}
+
 .page {
   padding: 40px 20px;
   max-width: 1200px;
@@ -34,9 +59,14 @@ body {
   margin: 20px 0;
 }
 
-h1 {
-  color: #b22222;
-  margin-bottom: 20px;
+.home-page h1 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.home-page h1 span {
+color: #c38552;
 }
 
 ul {
@@ -94,6 +124,13 @@ ul li {
   width: 100%;
   height: auto;
   object-fit: cover;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form {

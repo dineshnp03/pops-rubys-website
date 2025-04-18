@@ -1,4 +1,4 @@
-// // Author name: Sudhi Govind Thekkaparambil Anil
+// // Author name: Sudhi Govind Thekkeparambil Anil
 import React from "react";
 import "../css/styles.css";
 import { Button, Form } from "react-bootstrap";

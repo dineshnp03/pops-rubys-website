@@ -7,31 +7,31 @@ import logo from "../images/logo.png";
 
 function Navigation() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="navigation-bar">
+    <Navbar bg="dark" variant="dark" expand="lg" className="navigation-bar shadow-sm py-3">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <img
             src={logo}
             alt="Pops and Ruby's Logo"
-            width="40"
-            height="40"
-            className="d-inline-block align-top me-2"
+            width="50"
+            height="50"
+            className="me-2 rounded-circle border border-light"
           />
-          Pops and Ruby's
+           <span className="brand-text">Pops and Ruby's</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/">
+          <Nav className="ms-auto gap-3 nav-links">
+            <Nav.Link as={Link} to="/" end className="nav-item">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/menu">
+            <Nav.Link as={Link} to="/menu" className="nav-item">
               Menu
             </Nav.Link>
-            <Nav.Link as={Link} to="/about">
+            <Nav.Link as={Link} to="/about" className="nav-item">
               About
             </Nav.Link>
-            <Nav.Link as={Link} to="/contact">
+            <Nav.Link as={Link} to="/contact" className="nav-item">
               Contact
             </Nav.Link>
           </Nav>
