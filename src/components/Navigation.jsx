@@ -17,11 +17,11 @@ function Navigation() {
             height="50"
             className="me-2 rounded-circle border border-light"
           />
-           <span className="brand-text">Pops and Ruby's</span>
+           <span className="brand">Pops and Ruby's</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto gap-3 nav-links">
+          <Nav className="ms-auto gap-3 nav-link">
             <Nav.Link as={Link} to="/" end className="nav-item">
               Home
             </Nav.Link>

@@ -19,7 +19,7 @@ body {
   z-index: 1000;
 }
 
-.brand-text {
+.brand {
   font-size: 1.4rem;
   font-weight: 600;
   color: #fff;
@@ -37,12 +37,6 @@ body {
 .nav-item:hover {
   background-color: rgba(255, 255, 255, 0.1);
   color: #c38552 !important;
-}
-
-.nav-item.active {
-  background-color: #ffc107;
-  color: #000 !important;
-  font-weight: bold;
 }
 
 .page {
