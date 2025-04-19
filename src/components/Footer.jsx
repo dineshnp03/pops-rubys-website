@@ -1,4 +1,4 @@
-// Author: Dinesh Narasimhalu Punniyamoorthy
+// Author: Sumit Arya
 import React from "react";
 import "../css/styles.css";
 import logo from "../images/logo.png";
@@ -29,7 +29,8 @@ function Footer() {
             <a
               href="https://www.facebook.com/137675976246999/"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               Facebook
             </a>
           </p>
@@ -37,7 +38,8 @@ function Footer() {
             <a
               href="https://www.instagram.com/explore/locations/297984953/pops-rubys-tap-grill/"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               Instagram
             </a>
           </p>
@@ -45,7 +47,8 @@ function Footer() {
             <a
               href="https://www.skipthedishes.com/pops-rubys"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               Order Online
             </a>
           </p>

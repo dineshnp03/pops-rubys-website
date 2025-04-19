@@ -1,4 +1,4 @@
-// Author name: Kiran John Edison and Dinesh Narasimhalu Punniyamoorthy
+// Author name: Sudhi Govind and Dinesh Narasimhalu Punniyamoorthy
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -7,7 +7,12 @@ import logo from "../images/logo.png";
 
 function Navigation() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="navigation-bar shadow-sm py-3">
+    <Navbar
+      bg="dark"
+      variant="dark"
+      expand="lg"
+      className="navigation-bar shadow-sm py-3"
+    >
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <img
@@ -17,7 +22,7 @@ function Navigation() {
             height="50"
             className="me-2 rounded-circle border border-light"
           />
-           <span className="brand">Pops and Ruby's</span>
+          <span className="brand">Pops and Ruby's</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
