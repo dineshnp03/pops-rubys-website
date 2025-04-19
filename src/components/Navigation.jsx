@@ -27,7 +27,7 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto gap-3 nav-link">
-            <Nav.Link as={Link} to="/" end className="nav-item">
+            <Nav.Link as={Link} to="/" end="true" className="nav-item">
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/menu" className="nav-item">
